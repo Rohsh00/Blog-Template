@@ -1,0 +1,29 @@
+.contact-content{
+   
+    /* background-color: rgb(215, 215, 230); */
+   
+    margin-top: 30px;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    
+  
+
+}
+
+.contact-content::after{
+    content:"";
+    position:absolute;
+    background-image: url("../img/collections.jpg");
+    height: inherit;
+    width: 100%;
+    opacity: 0.15;
+    top: 0;
+    z-index: -1;
+
+
+}
+
+
+
+

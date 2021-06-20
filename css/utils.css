@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
+:root {
+    --main-bg-color:rgb(212, 83, 8);
+    --font1: 'Baloo Bhaina 2', cursive;
+    --font2:'Roboto', sans-serif;
+    --font3: 'Lobster', cursive;
+
+}
+
+.font1{
+    font-family: var(--font1);
+}
+
+
+.font2{
+    font-family: var(--font2);
+}
+
+.font-3{
+    font-family: var(--font3);
+}
+
+
+
+.max-width-1{
+    max-width:80vw;
+}
+
+.max-width-2{
+    max-width: 60vw;
+}
+
+
+.m-auto{
+    margin:auto;
+}
+
+.my-2{
+    margin-top: 32px;
+    margin-bottom: 32px
+}
+
+
+
+.btn{
+    font-size: 15px;
+    padding: 6px 20px;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-family: var(--font2);
+    cursor: pointer;
+    transition:all 0.3s ease-in-out
+
+
+}
+
+.btn:hover{
+    color:white;
+    background-color: var(--main-bg-color); 
+}
+
+.form-input{
+    font-family: var(--font1);
+    font-size: 16px;
+    padding: 0px 12px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 0 11px
+}
+
+ .form-box input, textarea{
+        padding: 12px 7px;
+        margin: 6px 0px;
+        width: 100vh;
+        border:2px solid orange;
+        border-radius: 10px;
+    }
+
+
+    
